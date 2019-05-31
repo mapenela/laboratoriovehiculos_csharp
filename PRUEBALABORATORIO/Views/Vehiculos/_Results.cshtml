@@ -1,0 +1,85 @@
+﻿@*@model List<PRUEBALABORATORIO.Models.VEHICULOS>*@
+@using PagedList.Mvc
+@model PagedList.IPagedList<PRUEBALABORATORIO.Models.VEHICULOS>
+@*@{
+        Layout = null;
+    }*@
+   
+<div class="row">
+            <div class="col-md-3">
+                Marca
+            </div>
+            <div class="col-md-3">
+                Modelo
+            </div>
+            <div class="col-md-3">
+                Precio
+            </div>
+            <div class="col-md-3">
+                Fecha Fábrica
+            </div>               
+</div>
+    
+<div id="listavehiculos">
+    <ul style="list-style-type: none">
+        @foreach (var item in Model)
+        {
+
+
+            <li id="@Html.DisplayFor(m => item.IdVehiculo)" class="row ">
+
+                <div class="col-md-3">
+                    @Html.DisplayFor(m => item.Marca,new { @id = "txtmarca"})
+                </div>
+                <div class="col-md-3">
+                    @Html.DisplayFor(m => item.Modelo,new { @id = "txtmodelo"})
+                </div>
+                <div class="col-md-3">
+                    @Html.DisplayFor(m => item.Precio,new { @id = "txtprecio"})
+                </div>
+                <div class="col-md-3">
+                    @Html.DisplayFor(m => item.FechaFabrica,new { @id = "txtfechafabrica"})
+                </div>
+
+            </li>
+
+
+        }
+    </ul>
+</div>
+<div class="row" id="MostrarUno">
+   
+</div>
+  
+     Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+    @Html.PagedListPager(Model, page => Url.Action("List", new { page }))
+
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script>       
+        $('#listavehiculos li').on('click', function () {
+            idVehiculo = this.id;            
+            var data = { id: idVehiculo };
+            sendJSON(data);
+        });
+        function sendJSON(data) {
+            $.ajax({
+                type: "POST",
+                url: "/Vehiculos/Edit",
+                data: JSON.stringify(data),
+                contentType: "application/json; charset=utf-8",
+                dataType: "html",
+                success: function (result) {                   
+                    $('#MostrarUno').html(result);
+                },
+                error: function (e) {
+                    alert("estoy en errores");
+                    alert(e);
+                    console.log(e);
+                }
+                 
+            });           
+        }
+       
+    </script>

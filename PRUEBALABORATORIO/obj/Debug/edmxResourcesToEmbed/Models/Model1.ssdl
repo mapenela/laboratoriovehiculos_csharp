@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PRUEBASLOCALModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="PRUEBASLOCALModelStoreContainer">
+    <EntitySet Name="VEHICULOS" EntityType="PRUEBASLOCALModel.Store.VEHICULOS" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="VEHICULOS">
+    <Key>
+      <PropertyRef Name="IdVehiculo" />
+    </Key>
+    <Property Name="IdVehiculo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Marca" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="Modelo" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="Precio" Type="decimal" Nullable="true" Precision="18" Scale="2" />
+    <Property Name="FechaFabrica" Type="datetime" Nullable="true" />
+    <Property Name="Estado" Type="bit" Nullable="true" />
+  </EntityType>
+</Schema>

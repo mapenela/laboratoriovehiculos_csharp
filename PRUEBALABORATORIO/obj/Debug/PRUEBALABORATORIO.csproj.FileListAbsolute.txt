@@ -1,0 +1,158 @@
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\PRUEBALABORATORIO.dll.config
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\PRUEBALABORATORIO.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\PRUEBALABORATORIO.pdb
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Antlr3.Runtime.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\EntityFramework.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\EntityFramework.SqlServer.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Microsoft.Owin.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\MVC Foolproof Validation.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Newtonsoft.Json.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Owin.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\System.Web.Helpers.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\System.Web.Mvc.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\System.Web.Optimization.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\System.Web.Razor.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\System.Web.WebPages.Deployment.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\System.Web.WebPages.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\System.Web.WebPages.Razor.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\WebGrease.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\System.Web.Helpers.xml
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\System.Web.Mvc.xml
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\System.Web.Optimization.xml
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\System.Web.Razor.xml
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\System.Web.WebPages.xml
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\System.Web.WebPages.Deployment.xml
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\System.Web.WebPages.Razor.xml
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Newtonsoft.Json.xml
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Antlr3.Runtime.pdb
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\EntityFramework.xml
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\EntityFramework.SqlServer.xml
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Microsoft.Owin.xml
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.xml
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\es\System.Web.Helpers.resources.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\es\System.Web.Mvc.resources.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\es\System.Web.Optimization.resources.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\es\System.Web.Razor.resources.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\es\System.Web.WebPages.resources.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\es\EntityFramework.resources.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\es\Microsoft.Owin.resources.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\obj\Debug\PRUEBALABORATORIO.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\obj\Debug\PRUEBALABORATORIO.pdb
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\PagedList.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\PagedList.Mvc.dll
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\PagedList.xml
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\bin\PagedList.Mvc.xml
+C:\Users\miguel.penela\documents\visual studio 2013\Projects\PRUEBALABORATORIO\PRUEBALABORATORIO\obj\Debug\PRUEBALABORATORIO.csprojResolveAssemblyReference.cache
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\PRUEBALABORATORIO.dll.config
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\PRUEBALABORATORIO.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\PRUEBALABORATORIO.pdb
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Antlr3.Runtime.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\EntityFramework.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\EntityFramework.SqlServer.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Microsoft.AspNet.Identity.Core.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Microsoft.Owin.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.Cookies.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.Facebook.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.Google.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.OAuth.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.Twitter.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Microsoft.Web.Infrastructure.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\MVC Foolproof Validation.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Newtonsoft.Json.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Owin.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\PagedList.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\PagedList.Mvc.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\System.Web.Helpers.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\System.Web.Mvc.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\System.Web.Optimization.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\System.Web.Razor.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\System.Web.WebPages.Deployment.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\System.Web.WebPages.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\System.Web.WebPages.Razor.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\WebGrease.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\PagedList.xml
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\PagedList.Mvc.xml
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\System.Web.Helpers.xml
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\System.Web.Mvc.xml
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\System.Web.Optimization.xml
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\System.Web.Razor.xml
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\System.Web.WebPages.xml
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\System.Web.WebPages.Deployment.xml
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\System.Web.WebPages.Razor.xml
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Newtonsoft.Json.xml
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Antlr3.Runtime.pdb
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\EntityFramework.xml
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\EntityFramework.SqlServer.xml
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Microsoft.AspNet.Identity.Core.xml
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Microsoft.Owin.xml
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.xml
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.Facebook.xml
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.Cookies.xml
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.OAuth.xml
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.Google.xml
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.Twitter.xml
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\es\System.Web.Helpers.resources.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\es\System.Web.Mvc.resources.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\es\System.Web.Optimization.resources.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\es\System.Web.Razor.resources.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\es\System.Web.WebPages.resources.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\es\EntityFramework.resources.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\es\EntityFramework.SqlServer.resources.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\es\Microsoft.Owin.resources.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\es\Microsoft.Owin.Security.resources.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\obj\Debug\PRUEBALABORATORIO.csprojResolveAssemblyReference.cache
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\obj\Debug\PRUEBALABORATORIO.dll
+C:\PROYECTO_VEHICULOS\PRUEBALABORATORIO\obj\Debug\PRUEBALABORATORIO.pdb

@@ -1,0 +1,38 @@
+﻿@model PRUEBALABORATORIO.Models.ViewModel.VmVehiculos
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>FormularioVehiculo</title>
+</head>
+<body>
+    @*FORMULARIO PARA INTRODUCIR LOS DATOS DE UN VEHICULO. AL HACER SUBMIT CON EL BOTON DE GRABAR SE LLAMA A EL CONTROLADOR DE
+        VEHICULOS Y A LA ACCION DE GRABAR.*@
+
+    @using (Html.BeginForm("Grabar", "Vehiculos", FormMethod.Post, new { @id="formulariovehiculos",@class = "form-horizontal", role = "form" }))
+{
+        <div style="margin-bottom: 25px" class="input-group">
+            <span class="input-group-addon">* Marca: </span>
+            @Html.TextBoxFor(m => m.vehiculo.Marca, new { @maxlenght = "20", @id = "txtmarca", @title = "Marca", @class = "form-control", @placeholder = "Marca" })
+            @Html.ValidationMessageFor(m => m.vehiculo.Marca, String.Empty, new { @style = "color:red" }) @*Para validar el campo Marca*@
+        </div>
+        <div style="margin-bottom: 25px" class="input-group">
+            <span class="input-group-addon">* Modelo: </span>
+            @Html.TextBoxFor(m => m.vehiculo.Modelo, new { @maxlenght = "20", @id = "txtmodelo", @title = "Modelo", @class = "form-control", @placeholder = "Modelo" })
+            @Html.ValidationMessageFor(m => m.vehiculo.Modelo, String.Empty, new { @style = "color:red" }) @*Para validar el campo Modelo*@
+        </div>
+        <div style="margin-bottom: 25px" class="input-group">
+            <span class="input-group-addon">* Precio: </span>
+            @Html.TextBoxFor(m => m.vehiculo.Precio, new { @name = "Precio", @id = "txtprecio", @title = "Precio", @class = "form-control", @placeholder = "Precio" })
+
+        </div>
+        <div style="margin-bottom: 25px" class="input-group">
+            <span class="input-group-addon">* Fecha Fábrica: </span>
+            @Html.TextBoxFor(m => m.vehiculo.FechaFabrica, new {  @maxlenght = "20", @id = "txtfechafabrica", @title = "FechaFabrica", @class = "form-control", @placeholder = "FechaFabrica" })
+            @Html.ValidationMessageFor(m => m.vehiculo.FechaFabrica, String.Empty, new { @style = "color:red" }) @*Para validar el campo Fecha Fábrica*@
+        </div>
+        <input id="ButGrabar" type="submit" value="Guardar" />
+    }
+    </body>
+</html>

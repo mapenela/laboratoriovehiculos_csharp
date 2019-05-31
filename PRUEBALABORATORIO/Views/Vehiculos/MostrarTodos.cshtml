@@ -1,0 +1,13 @@
+﻿@model PRUEBALABORATORIO.Models.VEHICULOS
+
+
+<h3>MOSTRAR TODOS LOS VEHICULOS</h3>
+
+<div style="margin-bottom: 25px" class="input-group">
+    <span class="input-group-addon">* Marca Modelo Vehiculo</span>
+    <!-- LLENAMOS EL COMBO BOX con los vehiculos -->
+    @Html.DropDownListFor(model => model.IdVehiculo, new SelectList(ViewBag.listaVehiculos, "idVehiculo", "Marca"), "Seleccione Vehiculo", new { @required = "required" })
+    @Html.ValidationMessageFor(model => model.IdVehiculo, String.Empty, new { @style = "color:red" }) @*Para validar el campo vehiculo*@
+</div>
+
+

@@ -1,0 +1,4 @@
+﻿Archivo de modelo generado: Model1.edmx.
+La carga de los metadatos desde la base de datos tardó 00:00:01.7700916.
+La generación del modelo tardó 00:00:01.8515341.
+La etiqueta de apertura 'connectionStrings' en la línea 11 posición 4 no coincide con la etiqueta de cierre de 'configuration'. línea 59, posición 3.

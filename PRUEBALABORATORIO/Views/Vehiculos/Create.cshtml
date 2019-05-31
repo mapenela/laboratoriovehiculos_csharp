@@ -1,0 +1,138 @@
+﻿@model PRUEBALABORATORIO.Models.ViewModel.VmVehiculos
+@{
+    ViewBag.Prototipo = "Nada";
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>FormularioVehiculo</title>
+</head>
+<body>
+@*FORMULARIO PARA INTRODUCIR LOS DATOS DE UN VEHICULO. AL HACER SUBMIT CON EL BOTON DE GRABAR SE LLAMA A EL CONTROLADOR DE 
+    VEHICULOS Y A LA ACCION DE GRABAR.*@
+
+@using (Html.BeginForm("Grabar", "Vehiculos", FormMethod.Post, new { @id="formulariovehiculos",@class = "form-horizontal", role = "form" }))
+{ 
+    <div id="formularioGeneral">        
+        <div style="margin-bottom: 25px" class="input-group">
+            <span class="input-group-addon">* Marca: </span>
+            @Html.TextBoxFor(m => m.vehiculo.Marca, new { @maxlenght = "20", @id = "txtmarca", @title = "Marca", @class = "form-control", @placeholder = "Marca" })
+            @Html.ValidationMessageFor(m => m.vehiculo.Marca, String.Empty, new { @style = "color:red" }) @*Para validar el campo Marca*@
+        </div>
+        <div style="margin-bottom: 25px" class="input-group">
+            <span class="input-group-addon">* Modelo: </span>
+            @Html.TextBoxFor(m => m.vehiculo.Modelo, new { @maxlenght = "20", @id = "txtmodelo", @title = "Modelo", @class = "form-control", @placeholder = "Modelo" })
+            @Html.ValidationMessageFor(m => m.vehiculo.Modelo, String.Empty, new { @style = "color:red" }) @*Para validar el campo Modelo*@
+        </div>
+        <div style="margin-bottom: 25px" class="input-group">
+            <span class="input-group-addon">* Precio: </span>
+            @Html.TextBoxFor(m => m.vehiculo.Precio, new {@name="Precio", @id = "txtprecio", @title = "Precio", @class = "form-control", @placeholder = "Precio" })                     
+
+        </div>
+        <div style="margin-bottom: 25px" class="input-group">
+            <span class="input-group-addon">* Fecha Fábrica: </span>
+            @Html.TextBoxFor(m => m.vehiculo.FechaFabrica, new { @type="date", @maxlenght = "20", @id = "txtfechafabrica", @title = "FechaFabrica", @class = "form-control", @placeholder = "FechaFabrica" })
+            @Html.ValidationMessageFor(m => m.vehiculo.FechaFabrica, String.Empty, new { @style = "color:red" }) @*Para validar el campo Fecha Fábrica*@
+        </div>        
+        <input id="ButGrabar" type="submit" value="Guardar" />
+
+        <button id="ButMostrarTodos">Mostrar Todos</button>
+    </div>    
+}  
+    <div class="row" id="MostrarTodos">
+        @if (Model.vehiculos != null)
+        {
+            Html.RenderPartial("_Results", Model);
+        }
+        
+    </div>   
+</body>
+</html>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // se desactiva la validacion del campo Precio porque sino el bootstratp te valida obligatoriamente con puntos decimales
+        // anglosajones y se desactiva para que permita validar con comas en formato español.
+        $("#txtprecio").removeAttr("data-val");
+    });
+
+</script>
+<script>
+    $('#txtprecio').on('change', function () {        
+        comprobarprecio();
+    });
+    $('#ButGrabar').on('click', function () {        
+        comprobarprecio();
+       
+    });
+    function comprobarprecio() {
+        // funcion para comprobar que el dato Precio sea un dato decimal con separador de coma
+        // se utiliza expresion regular para decimales de 2 cifras decimales
+        // si el dato Precio no es correcto con la expresion regular se da mensaje de error y se desactiva el boton de grabar
+        // si el dato Precio es correcto se activa el boton de grabar
+        var precio = $('#txtprecio').val();
+        re = "^[0-9]+(\,[0-9]{1,2})?$";
+        correcta = precio.match(re);
+        if (correcta == null) {
+            alert("el dato Precio introducido no es numérico decimal. debe introducir numeros con 2 decimales con coma");
+            $("#txtprecio").prop('value', '');
+            $("#ButGrabar").prop('disabled', 'disabled');
+        } else {
+            $("#ButGrabar").prop('disabled', false);
+        }
+    }
+    $('#ButMostrarTodos').on('click', function (event) {
+        event.preventDefault();
+        //$("#formularioGeneral").remove();
+        //$("#MostrarTodos").load("/Vehiculos/MostrarTodos");
+        //alert("estoy aqui en boton mostrar todos");
+        data = getData(1);
+        sendJSON(data);
+    });
+    // Click de botones de paginación
+    $('body').on('click', '#MostrarTodos .pagination a', function (event) {
+        if (this.href == "")
+            return false;
+        event.preventDefault();
+        page = getURLParameter(this.href, 'page');
+        data = getData(page);
+        sendJSON(data);
+    });
+    function sendJSON(datos) {
+        $.ajax({
+            type: "POST",
+            url: "/Vehiculos/List",
+            data: JSON.stringify(datos),
+            contentType: "application/json; charset=utf-8",
+            dataType: "html",
+            success: function (result) {                
+                $('#MostrarTodos').html(result);
+            },
+            error: function (e) {
+                console.log(e);
+            }
+        });
+    }
+    function getData(pagina) {
+        data = {
+            vehiculo: {
+                Marca: $("#txtmarca").val(),
+                Modelo: $("#txtmodelo").val(),
+                Precio: $("#txtprecio").val(),
+                FechaFabrica: $("#txtfechafabrica").val(),
+               
+            },
+            page: pagina,
+            pageSize: 10,
+        }
+        return data;
+    }
+    function getURLParameter(url, name) {
+        return (RegExp(name + '=' + '(.+?)(&|$)').exec(url) || [, null])[1];
+    }
+</script>
+
+
